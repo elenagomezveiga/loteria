@@ -1,0 +1,157 @@
+/* Encabezamiento */
+img {
+  width: 100%;
+
+}
+
+/* Zona botones para obtener los numeros premiados */
+.container {
+  text-align: center;
+}
+
+/* Botones para obtener números premiados */
+#chollazo-button {
+  background-color: rgb(61, 8, 110);
+  color: white;
+  border: none;
+}
+
+#primer-premio-button {
+  background-color: rgb(102, 5, 5);
+  color: white;
+  border: none;
+}
+
+#segundo-premio-button {
+  background-color: rgb(55, 77, 20);
+  color: white;
+  border: none;
+}
+
+button {  /* Aumentar tamaño botones premios */
+  margin: 10px; 
+  padding: 10px 20px;
+  font-size: 16px;
+}
+/* Para hacer la casilla del imput más pequeña */
+#miSerie {
+  width: 60px;
+}
+
+#miNumero {
+  width: 100px;
+}
+
+/* Cuando el formato introducido para mi número y serie no es válido */
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#miNumeroError {
+  font-size: medium;
+  color: brown;
+}
+
+#resultado {       
+  font-size: 50px;  /*Tamaño del texto con el resultado */
+}
+
+label {
+  font-size: large;  /*Tamaño del texto en los label del formulario */
+}
+
+#enviar-btn {
+  margin-left: 140px;
+  margin-top: 10px;
+  padding: 5px 50px; /* Ajusta el relleno del botón para hacerlo más grande */
+}
+
+/* Para el formulario */
+
+#chollazoResult, #primerPremioResult, #segundoPremioResult {
+  margin-top: 10px;
+}       
+
+/* Centrar formulario */
+
+.hijo-form {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  width: 50%; /* Define la anchura del contenedor del formulario */
+  height: auto; /* Define la altura del contenedor del formulario */
+  margin : auto; /* Centra el contenedor horizontalmente */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+/* Pie de página*/
+
+footer {
+  background-color: rgb(61, 8, 110);
+  color: white;
+  text-align: center;
+  height: 3em;
+  padding: 1em;
+}
+
+p { 
+  text-align: center; /*prohibición de juego a menores*/
+  color:white    
+}
+
+a {  
+  color: white; /*contacto*/
+}
+
+/* Mediaqueries para ajustar los estilos en pantallas */
+
+@media only screen and (max-width: 600px) {
+  button {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+
+  input {
+      margin: 3px;
+  }
+}
+
+/* Formulario */
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica;
+}
+
+/* Colores para formulario según los botones de los premios */
+
+.chollazo-color {
+  background-color: rgb(61, 8, 110);
+}
+
+.primer-premio-color {
+  background-color: rgb(102, 5, 5);
+}
+
+.segundo-premio-color {
+  background-color: rgb(55, 77, 20);
+}
+
+/* Botón enviar del formulario */
+
+#enviar-btn {
+  margin-left: 140px;
+  margin-top: 10px;
+  padding: 5px 50px; /* Ajusta el relleno del botón para hacerlo más grande */
+}
+
+/* Ajustes en los label del formulario */
+
+.label-size {
+  width: 100px;
+  display: inline-block;
+} 
